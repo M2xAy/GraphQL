@@ -1,0 +1,10 @@
+
+mutation {
+  jwtAuthentication(password: "xxxxx", username: "xxxxxx") {
+    firstName
+    id
+    lastName
+    password
+    token
+  }
+}
